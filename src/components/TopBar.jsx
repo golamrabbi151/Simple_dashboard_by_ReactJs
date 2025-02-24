@@ -4,12 +4,12 @@ import React from "react";
 const TopBar = () => {
   return (
     <div className="topbar max-w-full  ">
-      <div className="flex justify-between items-center  bg-gray-800 text-white px-4 py-[5px]">
-        <div className="logo  ">
+      <div className="flex justify-between items-center  bg-[#ffffff] text-white px-4 py-[5px] ">
+        <div className="logo font-medium text-gray-950 dark:text-black">
           <img src="/path/to/logo.png" alt="Logo" className="h-8" />
         </div>
         <div className="flex items-center space-x-4 ">
-          <div className="notification-icon">
+          <div className="notification-icon font-medium text-gray-950 dark:text-black">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -25,7 +25,9 @@ const TopBar = () => {
               ></path>
             </svg>
           </div>
-          <span className="profile-name">John Doe</span>
+          <span className="profile-name font-medium text-gray-950 dark:text-black">
+            John Doe
+          </span>
         </div>
       </div>
     </div>
